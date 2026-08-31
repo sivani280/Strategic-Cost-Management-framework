@@ -1,0 +1,151 @@
+A company depends on a single upstream supplier that continously increses material prices,destorying the company's manufacturing margins
+                                             Abstract
+Strategic Cost Management (SCM) extends conventional cost management by examining the strategic, operational, and external factors that influence an organization's cost structure.
+
+In manufacturing environments, material procurement is an important component of overall production cost and can directly influence product profitability.
+
+Supplier relationships form a critical part of the manufacturing value chain because organizations depend on external suppliers for raw materials, components, and other production requirements.
+
+Excessive dependence on a single supplier can reduce an organization's purchasing flexibility and increase exposure to unfavorable changes in supplier pricing.
+
+Continuous increases in the price of a critical material can raise procurement expenditure and subsequently increase the manufacturing cost of the finished product.
+
+When increased manufacturing costs cannot be transferred to customers through corresponding changes in selling prices, the additional cost places direct pressure on manufacturing margins.
+
+The problem is therefore not limited to procurement cost alone; it involves supplier concentration, bargaining power, cost exposure, operational dependency, and financial performance.
+
+This project examines the supplier price dependency problem using concepts from Strategic Cost Management, supplier dependency analysis, cost-driver analysis, and value-chain analysis.
+
+The project aims to translate the identified real-world problem into a practical analytical prototype capable of examining supplier concentration, material-price changes, cost impact, and margin sensitivity under different scenarios.
+
+The development will follow an iterative engineering approach in which assumptions, implementation decisions, errors, risks, limitations, experimental findings, and improvements are documented throughout the development process.
+1. Introduction
+Manufacturing organizations operate within interconnected supply, production, and distribution networks where decisions at one stage can influence costs at subsequent stages.
+
+Raw materials and externally sourced components can represent a significant portion of the total manufacturing cost.
+
+Procurement decisions therefore influence not only purchasing expenditure but also production economics and product profitability.
+
+Traditional cost management commonly focuses on budgeting, expenditure monitoring, variance analysis, and corrective financial control.
+
+Such approaches can identify that costs have increased, but may not sufficiently explain the structural or external factors responsible for the increase.
+
+Supplier relationships are an important external factor because organizations frequently depend on suppliers for materials, components, specialized processes, and production-critical resources.
+
+Dependence on a single supplier can provide operational advantages such as established quality standards, predictable processes, volume purchasing, and simplified supplier management.
+
+At the same time, excessive dependence can reduce the organization's ability to respond when the supplier changes prices, reduces capacity, or introduces unfavorable commercial conditions.
+
+A continuous increase in the price of a critical material can propagate through the manufacturing system, increasing procurement expenditure and production costs.
+
+When the resulting increase in manufacturing cost cannot be transferred to customers through higher selling prices, the additional cost directly places pressure on the organization's margin.
+
+The issue therefore extends beyond procurement and becomes a strategic cost-management problem involving financial exposure, supplier concentration, operational flexibility, and long-term competitiveness.
+
+2. Theoretical Foundation
+2.1 Strategic Cost Management
+Strategic Cost Management (SCM) examines cost in relation to the broader strategic objectives of an organization.
+
+It extends beyond the recording of historical expenditure by considering the factors that create and influence cost.
+
+Cost management can therefore involve decisions related to suppliers, production processes, technology, capacity, organizational structure, and product characteristics.
+
+SCM considers both internal and external influences on an organization's cost position.
+
+The approach emphasizes understanding the causes of cost rather than treating total expenditure as an isolated financial value.
+
+Strategic cost decisions should consider their long-term consequences rather than focusing exclusively on immediate savings.
+
+Cost reduction should be evaluated alongside requirements such as quality, reliability, delivery, safety, and operational continuity.
+
+Supplier dependency can be treated as a structural source of cost exposure within this framework.
+
+Scenario analysis can be used to examine how changes in external conditions may affect organizational costs.
+
+In this project, SCM provides the conceptual foundation for analyzing supplier price dependency and its impact on manufacturing margins.
+
+2.2 Supplier Dependency and Concentration
+Supplier dependency refers to the degree to which an organization relies on one or a limited number of suppliers for required materials or components.
+
+Dependency becomes more significant when the supplied material is critical to production.
+
+High concentration can reduce the organization's flexibility when commercial conditions change.
+
+Limited alternative suppliers can increase the bargaining power of the primary supplier.
+
+Switching suppliers may require qualification, testing, contractual changes, tooling changes, or additional logistics arrangements.
+
+A supplier offering a low purchase price may still introduce risks through lead time, quality, reliability, or capacity limitations.
+
+Supplier concentration can therefore represent both a cost exposure and an operational risk.
+
+The financial impact of dependency depends on factors such as purchase volume, material price, supplier allocation, and product cost structure.
+
+Diversification can reduce dependency but may introduce additional procurement or operational costs.
+
+Supplier decisions should therefore be evaluated using multiple cost and risk factors rather than purchase price alone.
+
+2.3 Cost Driver Analysis
+Cost Driver Analysis focuses on the factors responsible for changes in cost.
+
+Material purchase price is a direct cost driver in the supplier-price problem.
+
+Material consumption determines how strongly a price change affects total procurement expenditure.
+
+Supplier allocation determines the organization's exposure to a particular supplier's pricing decisions.
+
+Production volume affects the total quantity of material required.
+
+Transportation and logistics can contribute additional costs when alternative suppliers are geographically distant.
+
+Lead time can influence inventory requirements and production planning.
+
+Quality and rejection rates can create additional material and processing costs.
+
+Supplier capacity can affect availability and procurement flexibility.
+
+Contractual conditions can influence the organization's ability to negotiate or respond to future price changes.
+
+2.4 Value Chain Perspective
+Value Chain Analysis examines the interconnected activities involved in creating and delivering a product.
+
+Supplier selection represents an important upstream activity.
+
+Procurement determines how materials are acquired and under what commercial conditions.
+
+Transportation and receiving introduce additional cost and time considerations.
+
+Inventory management influences holding costs and material availability.
+
+Production converts purchased materials into finished or semi-finished products.
+
+Quality control determines whether purchased and processed materials meet required specifications.
+
+Assembly and downstream operations depend on the availability and quality of required inputs.
+
+Distribution and delivery connect manufacturing output with the final customer.
+
+A supplier price increase can therefore propagate through multiple stages of the value chain rather than remaining an isolated procurement expense.
+
+2.5 Manufacturing Margin
+Manufacturing cost represents the expenditure associated with producing a product.
+
+Material cost is one of the major components that can influence manufacturing cost.
+
+A change in the price of a production-critical material can therefore affect the economics of each manufactured unit.
+
+A simplified relationship can be represented as:
+
+Manufacturing Margin = Selling Price − Manufacturing Cost
+
+When material prices increase while the selling price remains unchanged, manufacturing cost increases.
+
+An increase in manufacturing cost consequently reduces the available margin.
+
+The magnitude of the impact depends on the material's contribution to the overall manufacturing cost.
+
+Products with high material intensity may experience greater margin sensitivity to supplier price changes.
+
+Repeated price increases can create cumulative financial pressure if selling prices cannot be adjusted proportionately.
+
+This relationship forms the basis for the scenario and margin analysis that will be developed in the prototype.
